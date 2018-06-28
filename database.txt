@@ -1,0 +1,39 @@
+Summarize the previous article about database:
+1. What is relational database?
+(1)  SQL databases are table based databases
+(2)  Data store in rows and columns
+(3)  Each row contains a unique instance of data for the categories defined by the columns.
+(4)  Provide facility primary key, to uniquely identify the rows
+
+2. What is NoSQL? (Non-relational database)
+NoSQL commonly referred to as “Not Only SQL”. With NoSQL, unstructured, schema less data can be stored in multiple collections and nodes and it does not require fixed table sachems, it supports limited join queries , and we scale it horizontally.
+
+3. What are the pro and con for each one? When to use which? Basically a comparison.
+Advantages of SQL:
+(1)  Speed: As we have already discussed, the speed offered by SQL is unbelievable and unbeatable, helping the retrieval of data from database records with ease.
+(2)  Well-defined standards: Unlike the NoSQL, SQL doesn’t have the issue of standardization. This follows the ISI and ANSI standards, which are approved across the globe.
+(3)  No coding: It’s code free nature makes the process hassle-free.
+
+Disadvantages of SQL:
+(1)  Scalability: be distributed on to multiple servers. 
+(2)  Complexity: In SQL server’s data has to fit into tables anyhow. If your data doesn’t fit into tables, then you need to design your database structure that will be complex and again difficult to handle.
+(3)  Interfaces: Though there are no complex coding involved, the process of interfacing is complex.
+
+Advantages of NoSQL:
+(1) NoSQL is non-relational: Non-relational, in other words you can call it as table-less, these NoSQL databases vary from SQL databases. In this sense, they provide the ease of management while ensuring a high level of flexibility with data models that are new.
+(2) NoSQL is low cost: While being low cost, NoSQL is also an open-source database, that provides an awesome solution for smaller enterprises to opt this at affordable prices. Maintaining NoSQL Servers is also cheaper.
+(3) The various kinds of NoSQL databases available in the market includes Couchbase, Amazon’s Dynamo Db, MongoDB and MarkLogic to provide for the processing of big data apps that are cost-effective.
+(4) Scalability is easier: NoSQL has been gaining popularity because of the elasticity and scalability that it offers over the other kinds of databases that are available. It has been designed to perform exceptionally well under any conditions including low cost hardware.
+(5) Detailed database model structuring is unnecessary here: You can easily create database without actually developing any detailed database models when using NoSQL database. This will help to save a lot of your time and effort.
+(6) Support Integrated Caching
+NoSQL database support caching in system memory so it increase data output performance and SQL database where this has to be done using separate infrastructure.
+
+Disadvantages:
+(1) Less support from community: Though the NoSQL has been expanding at an unbelievable pace, the community support is relatively less as its new.
+(2) Standardization: It lacks a standardized platform like SQL, which is preventing it from further expanding. This has been creating concerns during migration. Standardization is what helps the database industry to unify.
+(3) Interfaces and interoperability is another concern that is faced by NoSQL, which needs fixing immediately.
+
+SQL databases are ideal for projects where requirements can be determined and robust data integrity is essential. NoSQL databases are ideal for unrelated, indeterminate or evolving data requirements where speed and scalability are more important. In simpler terms:
+
+SQL is digital. It works best for clearly defined, discrete items with exact specifications. Typical use cases are online stores and banking systems.
+NoSQL is analog. It works best for organic data with fluid requirements. Typical use cases are social networks, customer management and web analytics systems.
