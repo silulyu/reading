@@ -1,0 +1,5 @@
+Vertical scaling means that you increase your overall capacity by increasing the the capacity of its machines.
+
+Horizontal scaling means adding more machines to your setup.
+In computer hardware, scaling horizontally (a cluster of lower tier machines) is usually cheaper compared to scaling vertically (one supercomputer). It also provides failover: if one machine dies, the others can take over. However, horizontal scaling is often harder from a software point of view, because data is now distributed over multiple machines.
+
